@@ -1,0 +1,21 @@
+{
+  "name": "playtube",
+  "version": "1.0.0",
+  "description": "A backend app similar to youtube ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "author": "Vivek Mishra",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4"
+  }
+}
